@@ -1,46 +1,109 @@
 <!doctype html>
 <html lang="vi">
 <head>
-  <meta charset="utf-8">
-  <title>Huni &amp; Huni Studio – Trang thông tin &amp; hỗ trợ</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Huni – Thông tin &amp; Hỗ trợ</title>
   <style>
-    body {
-      max-width: 860px;
-      margin: 40px auto;
-      padding: 0 16px;
-      font: 16px/1.6 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-            sans-serif;
+    :root { color-scheme: dark; }
+    body{
+      margin:0;
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+      background:#0b0b0b;
+      color:#e5e7eb;
+      line-height:1.6;
     }
-    h1 { font-size: 28px; margin-bottom: 8px; }
-    h2 { font-size: 20px; margin-top: 24px; }
+    .wrap{max-width:920px;margin:0 auto;padding:28px 16px 56px;}
+    a{color:#22c55e;text-decoration:none;}
+    a:hover{text-decoration:underline;}
+    .top{
+      display:flex;gap:12px;align-items:center;justify-content:space-between;
+      border-bottom:1px solid #1f1f1f;padding-bottom:14px;margin-bottom:18px;
+    }
+    .brand{font-weight:900;letter-spacing:.2px;}
+    .nav a{margin-left:12px;color:#9ca3af;}
+    h1{font-size:24px;margin:10px 0 6px;}
+    h2{font-size:16px;margin:22px 0 10px;}
+    .muted{color:#9ca3af;font-size:13px;}
+    .card{
+      background:#0f0f10;
+      border:1px solid #1f1f1f;
+      border-radius:14px;
+      padding:14px;
+      margin:12px 0;
+    }
+    ul{margin:8px 0 0 18px;color:#d1d5db;}
+    li{margin:8px 0;}
+    .footer{
+      margin-top:26px;
+      padding-top:16px;
+      border-top:1px solid #1f1f1f;
+      color:#9ca3af;
+      font-size:13px;
+    }
+    .btn{
+      display:inline-block;
+      margin-top:10px;
+      padding:10px 12px;
+      border-radius:12px;
+      border:1px solid #1f1f1f;
+      background:#111;
+      color:#e5e7eb;
+    }
+    .btn:hover{background:#141414;}
   </style>
 </head>
 <body>
-  <h1>Huni &amp; Huni Studio</h1>
-  <p>
-    <strong>Huni</strong> là ứng dụng xem video ngắn theo series, gọn nhẹ và khởi chạy nhanh.<br>
-    <strong>Huni Studio</strong> là ứng dụng dành cho creator và nhà bán hàng để đăng video, đăng sản phẩm
-    và quản lý cửa hàng, đơn hàng trong hệ sinh thái Huni.
-  </p>
+  <div class="wrap">
+    <div class="top">
+      <div class="brand">Huni Legal</div>
+      <div class="nav">
+        <a href="./">Hỗ trợ</a>
+        <a href="./privacy-vi.html">Privacy (VI)</a>
+        <a href="./privacy-en.html">Privacy (EN)</a>
+        <a href="./terms-en.html">Terms</a>
+      </div>
+    </div>
 
-  <h2>Liên kết hữu ích</h2>
-  <ul>
-    <li>
-      Chính sách quyền riêng tư (Huni &amp; Huni Studio):
-      <a href="./privacy.html">Xem tại đây</a>
-    </li>
-    <li>
-      Privacy Policy (English):
-      <a href="./privacy-en.html">View in English</a>
-    </li>
-    <li>
-      Điều khoản sử dụng: được hiển thị trong ứng dụng Huni và Huni Studio.
-    </li>
-    <li>
-      Liên hệ hỗ trợ:
-      <a href="mailto:homieopen7979@gmail.com">homieopen7979@gmail.com</a>
-    </li>
-  </ul>
+    <h1>Huni – Thông tin &amp; Hỗ trợ</h1>
+    <div class="muted">Liên hệ nhanh • Điều khoản • Chính sách quyền riêng tư</div>
+
+    <div class="card">
+      <p>
+        <b>Huni</b> là ứng dụng xem nội dung video dạng series. Một số tính năng có thể bao gồm theo dõi kênh,
+        thông báo nội dung mới (nếu bạn bật), và Premium (mua trong ứng dụng qua Apple, nếu bạn chọn mua).
+      </p>
+      <p class="muted">
+        Nhà phát triển: <b>Công ty TNHH Homie Open</b> • Email hỗ trợ:
+        <a href="mailto:homieopen7979@gmail.com">homieopen7979@gmail.com</a>
+      </p>
+
+      <a class="btn" href="mailto:homieopen7979@gmail.com?subject=Huni%20Support">Gửi email hỗ trợ</a>
+    </div>
+
+    <h2>Liên kết hữu ích</h2>
+    <ul>
+      <li>
+        <b>Chính sách Quyền riêng tư (Tiếng Việt):</b>
+        <a href="./privacy-vi.html">Xem tại đây</a>
+      </li>
+      <li>
+        <b>Privacy Policy (English):</b>
+        <a href="./privacy-en.html">View in English</a>
+      </li>
+      <li>
+        <b>Terms of Use (English):</b>
+        <a href="./terms-en.html">View Terms</a>
+      </li>
+      <li>
+        <b>Liên hệ hỗ trợ:</b>
+        <a href="mailto:homieopen7979@gmail.com">homieopen7979@gmail.com</a>
+      </li>
+    </ul>
+
+    <div class="footer">
+      Nếu bạn đang xem trang này từ App Store review: các liên kết Privacy/Terms ở trên là trang công khai và có thể truy cập trực tiếp.
+    </div>
+  </div>
 </body>
 </html>
